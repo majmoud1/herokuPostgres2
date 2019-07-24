@@ -57,10 +57,11 @@
               <span>Scolarité</span>
             </a>
             <ul class="sub">
-              <li><a href="inscription">Inscription</a></li>
-              <li><a href="#">Modifier</a></li>
-              <li><a href="#">Annuler</a></li>
-              <li><a href="#">Suspendre</a></li>
+              <li><a href="{{ url_for('inscription') }}">Inscription</a></li>
+              <li><a href="{{ url_for('listApp') }}">Lister</a></li>
+              <li><a href="{{ url_for('editer_inscription') }}">Modifier</a></li>
+              <li><a href="{{ url_for('annuler_inscription') }}">Annuler</a></li>
+              <li><a href="{{ url_for('suspendre_inscription') }}">Suspendre</a></li>
             </ul>
           </li>
           <li class="sub-menu">
